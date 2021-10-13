@@ -9,6 +9,7 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
 import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js';
@@ -37,6 +38,7 @@ Editor.builtinPlugins = [
 	CKFinderUploadAdapter,
 	Essentials,
 	Heading,
+	Highlight,
 	Image,
 	ImageCaption,
 	ImageInsert,
